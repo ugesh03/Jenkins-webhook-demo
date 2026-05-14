@@ -5,8 +5,6 @@ pipeline {
         stage('Clone') {
             steps {
                 echo "Cloning the code..."
-sh 'cd /home'
-sh 'git clone https://github.com/ugesh03/Jenkins-webhook-demo.git'
             }
         }
 
